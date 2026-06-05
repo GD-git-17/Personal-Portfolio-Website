@@ -546,12 +546,6 @@ main > section {
     font-size: 1rem;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.5rem;
-}
-
 .project-card {
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -949,10 +943,6 @@ main > section {
 }
 
 @media (max-width: 767.98px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
     .timeline {
         padding-left: 0.85rem;
     }
